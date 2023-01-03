@@ -1,0 +1,79 @@
+label{
+    display: block;
+}
+
+h1,
+p {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 0 auto;
+    width: 550px;
+    line-height: 1.72rem;
+    background-image: linear-gradient(180deg, #6E7C91, #91836E);
+    padding: 20px;
+    border: 5px double whitesmoke;
+    margin-bottom: 0;
+}
+
+.personal-details input{
+    width: 70%;
+    text-align: left;
+}
+
+.personal-details label{
+    width: 50%;
+    min-width: 55px;
+    text-align: right;
+}
+
+.personal-details input, .personal-details label{
+    display: inline-block;
+}
+
+.qualification-role label{
+    width: 70%;
+    min-width: 55px;
+    text-align: right;
+}
+
+.qualification-role input{
+    width: 10%;
+    text-align: left;
+}
+
+.qualification-role input, .qualification-role label{
+    display: inline-block;
+}
+
+p,
+form {
+    font-size: 20px;
+}
+
+legend {
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background-color: #8b7d74;
+    background-image: linear-gradient(90deg, #6E7C91, #91836E);
+}
+
+#submit {
+    margin-left: 250px;
+}
+
+footer {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}

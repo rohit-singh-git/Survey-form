@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form to make our services better.</p>
+
+    <form id="survey-form" method="post">
+        <fieldset class="personal-details">
+            <legend>Personal Details</legend>
+            <label id="name-label" for="name">Name:
+                <input type="text" id="name" required placeholder="Name" />
+            </label>
+            <label id="email-label" for="email">Email:
+                <input type="email" id="email" required placeholder="Email" />
+            </label>
+            <label id="number-label" for="number">Age:
+                <input type="number" id="number" min="18" max="100" placeholder="Age" />
+            </label>
+        </fieldset>
+        <fieldset class="qualification-role">
+            <legend>Qualification & Job</legend>
+            <label>
+                What is your qualification:
+                <select>
+                    <option>Select</option>
+                    <option>10th Pass</option>
+                    <option>12th Pass</option>
+                    <option>Graduate</option>
+                    <option>Under Graduate</option>
+                    <option>Post Graduate</option>
+                    <option>Below 10th</option>
+                </select>
+            </label>
+            <label>What's your current role:
+                <select id="dropdown">What's your current role:
+                    <option>Select</option>
+                    <option>Student</option>
+                    <option>Full-time Job</option>
+                    <option>Part-time Job</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="hobby">
+            <legend>Hobby</legend>
+            <label>
+                What are your hobbies:
+                <input type="text" placeholder="playing football, listening music...">
+            </label>
+        </fieldset>
+        <fieldset class="recommendation">
+            <legend>Recommendation</legend>
+            <div>Would you recommend Black Widow to others:
+                <label><input type="radio" value="yes" name="user-recommend" checked> Definitely Yes</label>
+                <label><input type="radio" value="no" name="user-recommend"> Never</label>
+                The good feature(s) of Black Widow are:
+                <label><input type="checkbox" value="face-recognition"> Facial Recognition</label>
+                <label><input type="checkbox" value="tracker"> Tracker</label>
+            </div>
+            <label>What would you like to comment:
+                <textarea rows="10" cols="50" placeholder="Add your comments here..."></textarea>
+            </label>
+
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <footer>All copyrights reserved 2025</footer>
+
+</body>
+
+</html>
